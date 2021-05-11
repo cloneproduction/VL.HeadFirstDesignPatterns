@@ -211,8 +211,8 @@
         <Patch Id="NvZTFuGWFnWNB1lYwSvPb3">
           <Canvas Id="Ej65YbxitrCLHDqJBW8SIJ" CanvasType="Group">
             <Pad Id="HJrurOcVTcaPS1MAimzm2B" SlotId="QeXO2nr7ZalMuLl3AYiN2r" Bounds="710,-45" />
-            <ControlPoint Id="SrG9m5EDdPkP6nAnM0ma7f" Bounds="608,-139" />
-            <ControlPoint Id="SbWQC5QDP4xPzb8kVyycrc" Bounds="819,-142" />
+            <ControlPoint Id="SrG9m5EDdPkP6nAnM0ma7f" Bounds="612,-142" />
+            <ControlPoint Id="SbWQC5QDP4xPzb8kVyycrc" Bounds="810,-139" />
             <Pad Id="BkzixNfawPoNeHcNhcCQiJ" Bounds="643,-382,114,15" ShowValueBox="true" isIOBox="true" Value="Component1 Did A">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -225,7 +225,7 @@
               </p:TypeAnnotation>
             </Pad>
             <ControlPoint Id="QwdhHMCp8PYOMXPav5cGdk" Bounds="721,-231" />
-            <Node Bounds="606,56,50,26" Id="Ta9tAsiUXBmQUzqwQmAeHs">
+            <Node Bounds="606,78,50,26" Id="Ta9tAsiUXBmQUzqwQmAeHs">
               <p:NodeReference LastCategoryFullName="Main.IMediator" LastSymbolSource="13_MediatorPattern.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Notify" />
@@ -235,12 +235,12 @@
               <Pin Id="EFHtcoJH4OxNUesHv4V82e" Name="MessageType" Kind="InputPin" />
               <Pin Id="KmYxdRbUY2hPcWv1Og0Vb0" Name="Output" Kind="StateOutputPin" />
             </Node>
-            <Pad Id="F2yWLWPUbjTMv9C32kIk66" Comment="MessageType" Bounds="653,21,35,15" ShowValueBox="true" isIOBox="true" Value="A">
+            <Pad Id="F2yWLWPUbjTMv9C32kIk66" Comment="MessageType" Bounds="653,43,35,15" ShowValueBox="true" isIOBox="true" Value="A">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
-            <Node Bounds="816,58,50,26" Id="H0aln8AFcFROFoXdhh6opB">
+            <Node Bounds="797,75,50,26" Id="H0aln8AFcFROFoXdhh6opB">
               <p:NodeReference LastCategoryFullName="Main.IMediator" LastSymbolSource="13_MediatorPattern.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Notify" />
@@ -250,11 +250,19 @@
               <Pin Id="QZVuvVRxfdaO57miMqcjhl" Name="MessageType" Kind="InputPin" />
               <Pin Id="GxpXzwbfvW7ODzi37p5qrK" Name="Output" Kind="StateOutputPin" />
             </Node>
-            <Pad Id="TJCHIEE92lgM51pwp8DvK0" Comment="MessageType" Bounds="863,23,35,15" ShowValueBox="true" isIOBox="true" Value="B">
+            <Pad Id="TJCHIEE92lgM51pwp8DvK0" Comment="MessageType" Bounds="844,40,35,15" ShowValueBox="true" isIOBox="true" Value="B">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
+            <Node Bounds="527,21,46,26" Id="ODa00YMBMJ0MDO54zzlEOF">
+              <p:NodeReference LastCategoryFullName="Primitive.This" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <CategoryReference Kind="ClassType" Name="This" />
+                <Choice Kind="OperationCallFlag" Name="Create" />
+              </p:NodeReference>
+              <Pin Id="O2GeK5Pw0r3P9Yx5vyjPpQ" Name="Output" Kind="StateOutputPin" />
+            </Node>
           </Canvas>
           <ProcessDefinition Id="D8wVJ0Vw57IOJ4UsCUaNrm" HasStateOut="true">
             <Fragment Id="TsOLnDuZcL7LzcCLPn7a1A" Patch="AxWmpf3azzlOYEVTWh7q5W" Enabled="true" />
