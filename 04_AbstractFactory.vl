@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" Id="OungB7JNVclQa52HE4P9k5" LanguageVersion="2021.4.0.78" Version="0.128">
+  <NugetDependency Id="BCi6KrejRptNEmoZkOm5e1" Location="VL.CoreLib" Version="2021.4.0-0078-gd0787d0fed" />
+  <Patch Id="MDttu400YmNMnafk2RjjNA">
+    <Canvas Id="JQDDb0CzAMdMNt22cqx1QJ" DefaultCategory="Main" CanvasType="FullCategory">
+      <!--
+
+    ************************ IAbstractFactory ************************
+
+-->
+      <Node Name="IAbstractFactory" Bounds="337,252" Id="EvaAr7l56rNOGoYSZ8wh3Z">
+        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+          <Choice Kind="InterfaceDefinition" Name="Interface" />
+        </p:NodeReference>
+        <Patch Id="NvhMiyqTNwrK9jj9418B1Q">
+          <Canvas Id="T5dTO0OaYNtMt5RRzSITap" CanvasType="Group">
+            <ControlPoint Id="KNlWaEClJVOP0RkpazSuNM" Bounds="350,22" />
+            <ControlPoint Id="VgwP9DHSUXlNvppZkZPSvD" Bounds="454,23" />
+          </Canvas>
+          <!--
+
+    ************************  ************************
+
+-->
+          <ProcessDefinition Id="HCIHAFNCBPFLLsVDBTIj10" IsHidden="true">
+            <Fragment Id="QhRL2Zpu27tNtyrp0JKKuf" Patch="UPmCZ1FPCTqNk4xYijQ9g1" Enabled="true" />
+            <Fragment Id="MDY1mreACX0MMYvoQo0fB3" Patch="QSVRiZiTMfxMTjb9pXiHX0" Enabled="true" />
+          </ProcessDefinition>
+          <Patch Id="QSVRiZiTMfxMTjb9pXiHX0" Name="CreateProductA">
+            <Pin Id="PBuU2yGaSJENnIEkJMTiAM" Name="ProductA" Kind="OutputPin">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="IAbstractProductA" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="UPmCZ1FPCTqNk4xYijQ9g1" Name="CreateProductB">
+            <Pin Id="B8tL7lMRgk3QDf7aMYLUNX" Name="ProductB" Kind="OutputPin">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="IAbstractProductB" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Link Id="SMQ4QkLjjTKP2IImXs3bYh" Ids="KNlWaEClJVOP0RkpazSuNM,PBuU2yGaSJENnIEkJMTiAM" IsHidden="true" />
+          <Link Id="UURacmuak7bMhgEMGxG8oX" Ids="VgwP9DHSUXlNvppZkZPSvD,B8tL7lMRgk3QDf7aMYLUNX" IsHidden="true" />
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ IAbstractProductA ************************
+
+-->
+      <Node Name="IAbstractProductA" Bounds="337,363" Id="O9mxeIB3limMwoigTmHDMz">
+        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+          <Choice Kind="InterfaceDefinition" Name="Interface" />
+        </p:NodeReference>
+        <Patch Id="RBsAk73oDajLf9TLQ4heCp">
+          <Canvas Id="AaWzsiQC7I3MMbTjs4SpbV" CanvasType="Group">
+            <ControlPoint Id="TY6W3f0Wiy0OCzVqUxlEK6" Bounds="357,352" />
+          </Canvas>
+          <!--
+
+    ************************  ************************
+
+-->
+          <ProcessDefinition Id="RhagA4i8gGWQX1zq2bHFmT" IsHidden="true">
+            <Fragment Id="EsvOEGP7p2xNmz15Ia8aiP" Patch="AhOmpjPrNbMPHkINn6hea0" />
+          </ProcessDefinition>
+          <Patch Id="AhOmpjPrNbMPHkINn6hea0" Name="UsefulFunctionA">
+            <Pin Id="J7PApKqquFEMjBx2OljzCw" Name="FromUsefulFunction" Kind="OutputPin">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Link Id="MARypoNtnMYL3FLKwEJVqX" Ids="TY6W3f0Wiy0OCzVqUxlEK6,J7PApKqquFEMjBx2OljzCw" IsHidden="true" />
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ IAbstractProductB ************************
+
+-->
+      <Node Name="IAbstractProductB" Bounds="337,428" Id="LfDATuS5JoaMJ71B3Ojnr9">
+        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+          <Choice Kind="InterfaceDefinition" Name="Interface" />
+        </p:NodeReference>
+        <Patch Id="FKd42NC1O0YL7zO20BVgGV">
+          <Canvas Id="HTcBznIvTvwMZ4gPOlcr5v" CanvasType="Group">
+            <ControlPoint Id="LfoOI71zv6sNKrkzpkaptw" Bounds="410,309" />
+            <ControlPoint Id="TMcR7dfhBwYOCrxfao14qt" Bounds="410,218" />
+          </Canvas>
+          <ProcessDefinition Id="LjKR7QWhvxTNePLWOkAdU7" IsHidden="true">
+            <Fragment Id="NiU3DSfKAbWPvKU5bwJvcI" Patch="UCuIEBJNHyKNIa6DOpHWou" />
+            <Fragment Id="MWO5sG1SUvXLsl8zM8UEGY" Patch="CKWLr6lOZhHM9kpp4BBd2F" />
+          </ProcessDefinition>
+          <Patch Id="UCuIEBJNHyKNIa6DOpHWou" Name="UsefulFunctionB">
+            <Pin Id="KnEeIHKeyG7MNnkxGp7OAR" Name="String" Kind="OutputPin" Bounds="408,393">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="QSA1n6L6rDCPzkRuVAnMZ0" Name="Collaborator" Kind="InputPin">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="IAbstractProductA" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="CKWLr6lOZhHM9kpp4BBd2F" Name="AnotherUsefulFUnctionB" />
+          <Link Id="NV6bhT0lYvJNIfUvNzKafu" Ids="LfoOI71zv6sNKrkzpkaptw,KnEeIHKeyG7MNnkxGp7OAR" IsHidden="true" />
+          <Link Id="EEnrraTlw31L1gfrgc92Fx" Ids="QSA1n6L6rDCPzkRuVAnMZ0,TMcR7dfhBwYOCrxfao14qt" IsHidden="true" />
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ ConcreteFactory1 ************************
+
+-->
+      <Node Name="ConcreteFactory1" Bounds="619,263" Id="PNhtV9dtjhxLvSJT5yGZKo">
+        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+          <Choice Kind="ClassDefinition" Name="Class" />
+        </p:NodeReference>
+        <p:Interfaces>
+          <TypeReference LastCategoryFullName="Main" LastSymbolSource="04_AbstractFactory.vl">
+            <Choice Kind="InterfaceTypeFlag" Name="IAbstractFactory" />
+          </TypeReference>
+        </p:Interfaces>
+        <Patch Id="UXrkPEZnRJ4MECVvbRWHYA">
+          <Canvas Id="E8dlqqbiG0wLxdzHr54Vey" CanvasType="Group">
+            <ControlPoint Id="DCL7wkMHztTOAWcCPKnft6" Bounds="379,289" />
+            <ControlPoint Id="PP7J7G6qtDOOMUNF1DBuOZ" Bounds="504,290" />
+          </Canvas>
+          <Patch Id="ArxDwRex7wEO7MUsM4EmgU" Name="Create" />
+          <!--
+
+    ************************  ************************
+
+-->
+          <ProcessDefinition Id="SkygAQ4JCQoPwjN9tABtUw" IsHidden="true">
+            <Fragment Id="AWaql1cghOBL054aE0I1xM" Patch="ArxDwRex7wEO7MUsM4EmgU" Enabled="true" />
+            <Fragment Id="Rah9izi8CeZNZjWMvGIoff" Patch="JcroCM5tOUTMNeZ7XqN4Bw" Enabled="true" />
+            <Fragment Id="HBiv5iZP1HiLBeDHS5DGNA" Patch="Hkkk2JYhT2OOFFI0scpa61" Enabled="true" />
+          </ProcessDefinition>
+          <Link Id="JIjm9FMKk8lNC7PElZ6Rfp" Ids="DCL7wkMHztTOAWcCPKnft6,OTBfZmW5OB5QEx7e92a9zJ" IsHidden="true" />
+          <Patch Id="JcroCM5tOUTMNeZ7XqN4Bw" Name="CreateProductA">
+            <Pin Id="OTBfZmW5OB5QEx7e92a9zJ" Name="ProductA" Kind="OutputPin">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="IAbstractProductA" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Link Id="U7ZHluVcRXFLwZTxXURgDo" Ids="PP7J7G6qtDOOMUNF1DBuOZ,AFL8g7i6B7JP9v8JkzEEho" IsHidden="true" />
+          <Patch Id="Hkkk2JYhT2OOFFI0scpa61" Name="CreateProductB">
+            <Pin Id="AFL8g7i6B7JP9v8JkzEEho" Name="ProductB" Kind="OutputPin">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="IAbstractProductB" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ ConcreteFactory2 ************************
+
+-->
+      <Node Name="ConcreteFactory2" Bounds="619,324" Id="KUTOsJ9E41INnm99rhvOsh">
+        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+          <Choice Kind="ClassDefinition" Name="Class" />
+        </p:NodeReference>
+        <p:Interfaces>
+          <TypeReference LastCategoryFullName="Main" LastSymbolSource="04_AbstractFactory.vl">
+            <Choice Kind="InterfaceTypeFlag" Name="IAbstractFactory" />
+          </TypeReference>
+        </p:Interfaces>
+        <Patch Id="HdKhqDsBHcJO5XZTHLd6qE">
+          <Canvas Id="Uevr04uyINzMomlh4JxCNo" CanvasType="Group">
+            <ControlPoint Id="DL2YseRart9L1jNVdjhrjn" Bounds="362,302" />
+            <ControlPoint Id="BhM1uwQcY0oPgPr60ZJ1ec" Bounds="487,303" />
+          </Canvas>
+          <Patch Id="QB1kOJooDGhQBaiXhI5t1B" Name="Create" />
+          <ProcessDefinition Id="N5hTQpfxwLVLLIwBFgTh0T" IsHidden="true">
+            <Fragment Id="JiFcZOKAoOqLjrfyNOO1S7" Patch="QB1kOJooDGhQBaiXhI5t1B" Enabled="true" />
+            <Fragment Id="FDqT61fMMEqLwaYb2dW2DN" Patch="UN8W15QOInBMXCWrIYbfSd" Enabled="true" />
+            <Fragment Id="LDcB5x2rOiqOSmQpee7Iwd" Patch="CRN9EawXYOCLLxdVCWcJtP" Enabled="true" />
+          </ProcessDefinition>
+          <Link Id="VuyZvbyuNvgLJhlxdIp4ab" Ids="DL2YseRart9L1jNVdjhrjn,CjaXoDEeUOhLAAhbQMyFBg" IsHidden="true" />
+          <Patch Id="UN8W15QOInBMXCWrIYbfSd" Name="CreateProductA">
+            <Pin Id="CjaXoDEeUOhLAAhbQMyFBg" Name="ProductA" Kind="OutputPin">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="IAbstractProductA" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Link Id="GHU3sVijjLkLBcd4VN9lnc" Ids="BhM1uwQcY0oPgPr60ZJ1ec,OWgsXFVyXpiLuF31k4KBtm" IsHidden="true" />
+          <Patch Id="CRN9EawXYOCLLxdVCWcJtP" Name="CreateProductB">
+            <Pin Id="OWgsXFVyXpiLuF31k4KBtm" Name="ProductB" Kind="OutputPin">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="IAbstractProductB" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ ConcreteProductA1 ************************
+
+-->
+      <Node Name="ConcreteProductA1" Bounds="619,444" Id="AhDRlFGT4e2Oyt4tK6jDKn">
+        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+          <Choice Kind="ClassDefinition" Name="Class" />
+        </p:NodeReference>
+        <p:Interfaces>
+          <TypeReference LastCategoryFullName="Main" LastSymbolSource="04_AbstractFactory.vl">
+            <Choice Kind="InterfaceTypeFlag" Name="IAbstractProductA" />
+          </TypeReference>
+        </p:Interfaces>
+        <Patch Id="NZbrvNWxTfBLQxhVudcAz6">
+          <Canvas Id="JTXVykLce3yOE0014W5IlU" CanvasType="Group">
+            <ControlPoint Id="Fjph0HlbsKMQKQdsFdIuhT" Bounds="346,326" />
+            <Pad Id="OmPlQtcTgwbNherD0TJlOO" Comment="FromUsefulFunction" Bounds="346,265,149,15" ShowValueBox="true" isIOBox="true" Value="&quot;The result of the product A2&quot;">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+            </Pad>
+          </Canvas>
+          <Patch Id="OHSpLmQS9vFLzp9yf55euZ" Name="Create" />
+          <!--
+
+    ************************  ************************
+
+-->
+          <ProcessDefinition Id="GEXX06NZ6t0OkFMXfJzgsU" IsHidden="true">
+            <Fragment Id="Cg3U93QT0wXPxcVO10hhug" Patch="OHSpLmQS9vFLzp9yf55euZ" Enabled="true" />
+            <Fragment Id="QwZloHCzRssOow4eBKdVaI" Patch="PYlhB5fR929QVHyRZfAOfI" />
+          </ProcessDefinition>
+          <Patch Id="PYlhB5fR929QVHyRZfAOfI" Name="UsefulFunctionA">
+            <Pin Id="Rn9PfNPUDumLdZQ3Vxngqx" MergeId="367022" Name="FromUsefulFunction" Kind="OutputPin">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Link Id="J1tQUydsbboMrpDi17E1W4" Ids="Fjph0HlbsKMQKQdsFdIuhT,Rn9PfNPUDumLdZQ3Vxngqx" IsHidden="true" />
+          <Link Id="Ew7GzUFm6tXMDWwHemUE18" Ids="OmPlQtcTgwbNherD0TJlOO,Fjph0HlbsKMQKQdsFdIuhT" />
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ ConcreteProductA2 ************************
+
+-->
+      <Node Name="ConcreteProductA2" Bounds="619,513" Id="L4wj2ZWFvzeOCuvCXZ0bzl">
+        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+          <Choice Kind="ClassDefinition" Name="Class" />
+        </p:NodeReference>
+        <p:Interfaces>
+          <TypeReference LastCategoryFullName="Main" LastSymbolSource="04_AbstractFactory.vl">
+            <Choice Kind="InterfaceTypeFlag" Name="IAbstractProductA" />
+          </TypeReference>
+        </p:Interfaces>
+        <Patch Id="FwT69sb67j9QSQFW4NRU9X">
+          <Canvas Id="TYEtBfRgnXiMwLKlsXqL97" CanvasType="Group">
+            <ControlPoint Id="SE3nsEodSBuMrNcUugqUrN" Bounds="396,313" />
+            <Pad Id="EoIoMJvaGE7PzTnXEcfU4F" Comment="FromUsefulFunction" Bounds="396,245,142,15" ShowValueBox="true" isIOBox="true" Value="The result of the product A2">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+            </Pad>
+          </Canvas>
+          <Patch Id="MSSQeLml1IzPB1lhk83wDv" Name="Create" />
+          <!--
+
+    ************************  ************************
+
+-->
+          <ProcessDefinition Id="AV9S61YCj7fMGcHX3qcHev" IsHidden="true">
+            <Fragment Id="UTTBVRRdugHLXU9HNutVRa" Patch="MSSQeLml1IzPB1lhk83wDv" Enabled="true" />
+            <Fragment Id="EcPQtkADdhxOzaxogJcWv3" Patch="Ut9FyQpWQuKMR33DN4cfpF" />
+          </ProcessDefinition>
+          <Patch Id="Ut9FyQpWQuKMR33DN4cfpF" Name="UsefulFunctionA">
+            <Pin Id="SDimatwg1jdOPYtnbvNkFS" MergeId="367022" Name="FromUsefulFunction" Kind="OutputPin">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Link Id="F7GSauCqjl9PnJpXY9HxCY" Ids="SE3nsEodSBuMrNcUugqUrN,SDimatwg1jdOPYtnbvNkFS" IsHidden="true" />
+          <Link Id="C02SyhpjB7cPZZaJQsDkMi" Ids="EoIoMJvaGE7PzTnXEcfU4F,SE3nsEodSBuMrNcUugqUrN" />
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ ConcreteProductB1 ************************
+
+-->
+      <Node Name="ConcreteProductB1" Bounds="623,646" Id="H8PKpLvsZ3lL3OVppWMqQU">
+        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+          <Choice Kind="ClassDefinition" Name="Class" />
+        </p:NodeReference>
+        <p:Interfaces>
+          <TypeReference LastCategoryFullName="Main" LastSymbolSource="04_AbstractFactory.vl">
+            <Choice Kind="InterfaceTypeFlag" Name="IAbstractProductB" />
+          </TypeReference>
+        </p:Interfaces>
+        <Patch Id="LNmpLwTnbjuMYmfpo61R6E">
+          <Canvas Id="Q3qmZX8Ue25PAHxx3JM9Jw" CanvasType="Group">
+            <ControlPoint Id="H8BnAGiuaOMLGjdOImbqtQ" Bounds="304,429" />
+            <Pad Id="QfFJnnSV1O3OJgfqyIfDpM" Comment="FromUseFulFunctionB" Bounds="304,342,140,-2" ShowValueBox="true" isIOBox="true" Value="The result of the product B1.">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+            </Pad>
+          </Canvas>
+          <!--
+
+    ************************  ************************
+
+-->
+          <ProcessDefinition Id="FdAcSrh4rI8Pd7JG52RpeO" IsHidden="true">
+            <Fragment Id="SREOMTgQ0aHPaGtO3HyHaK" Patch="Q2J5LsKnXPpQPEPybtKidL" Enabled="true" />
+            <Fragment Id="T0tOibgDw3xNFQWF8XP33C" Patch="KpKYrgg6LZZLjPrvuosATf" />
+          </ProcessDefinition>
+          <Link Id="DTB8xy5xZYOP82zslbbQY4" Ids="QfFJnnSV1O3OJgfqyIfDpM,H8BnAGiuaOMLGjdOImbqtQ" />
+          <Patch Id="Q2J5LsKnXPpQPEPybtKidL" Name="Create" />
+          <Patch Id="KpKYrgg6LZZLjPrvuosATf" Name="UsefulFunctionB">
+            <Pin Id="ObvxpXS7WPfPUpxWaTdWcm" Name="Collaborator" Kind="InputPin" />
+            <Pin Id="BZZnNybc3EeM07DtBmD3MV" Name="String" Kind="OutputPin" />
+          </Patch>
+          <Link Id="NI7rLRI28OGOMLwphKgZgK" Ids="H8BnAGiuaOMLGjdOImbqtQ,BZZnNybc3EeM07DtBmD3MV" IsHidden="true" />
+        </Patch>
+      </Node>
+    </Canvas>
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="HADJWoctlq2Lu0iJn86vrF">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <FullNameCategoryReference ID="Primitive" />
+      </p:NodeReference>
+      <Patch Id="Qk2J1YC1Gk7PKpT5QhBcpI">
+        <Canvas Id="DWJVaxRLiyJLsTrPkin5dz" CanvasType="Group" />
+        <Patch Id="EJ6ckaNVvPJM9NUfxJF3hm" Name="Create" />
+        <Patch Id="AQYDWzS67m0PSg97tIOF6o" Name="Update" />
+        <!--
+
+    ************************  ************************
+
+-->
+        <ProcessDefinition Id="JVD01a73x36QUWRsJgxdaH">
+          <Fragment Id="IVIR6QHyEBSNprOMTvA8Qz" Patch="EJ6ckaNVvPJM9NUfxJF3hm" Enabled="true" />
+          <Fragment Id="CyevUmf0bHcMlUtkKMbQli" Patch="AQYDWzS67m0PSg97tIOF6o" Enabled="true" />
+        </ProcessDefinition>
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="BmHmUDKGzzOQRArGHJwehm" Location="VL.CoreLib" Version="2021.4.0-0078-gd0787d0fed" />
+</Document>
