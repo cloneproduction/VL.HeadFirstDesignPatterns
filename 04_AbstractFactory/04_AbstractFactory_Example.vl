@@ -1245,7 +1245,7 @@
       </p:NodeReference>
       <Patch Id="Qk2J1YC1Gk7PKpT5QhBcpI">
         <Canvas Id="DWJVaxRLiyJLsTrPkin5dz" CanvasType="Group">
-          <Node Bounds="657,25,277,19" Id="SJ9HTbWyJasM0ZUAx1bcfC">
+          <Node Bounds="725,64,277,19" Id="SJ9HTbWyJasM0ZUAx1bcfC">
             <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="04_AbstractFactory_Example.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Client" />
@@ -1275,7 +1275,7 @@
             <Pin Id="IziMcToEpsBL1Xad7kp29L" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="FoLC2jftDS4NfArwEtwaov" Name="Render Time" Kind="OutputPin" />
           </Node>
-          <Pad Id="VSXJBgweGFuNSaKzFX88P5" Comment="DrawRedShapes" Bounds="659,-41,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="VSXJBgweGFuNSaKzFX88P5" Comment="DrawRedShapes" Bounds="727,-2,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="Boolean" />
               <FullNameCategoryReference ID="Primitive" />
@@ -1284,7 +1284,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="ESxgII0SNJuO7LwaiMg5ZC" Comment="DrawYellowShapes" Bounds="931,-39,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="ESxgII0SNJuO7LwaiMg5ZC" Comment="DrawYellowShapes" Bounds="999,0,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="Boolean" />
               <FullNameCategoryReference ID="Primitive" />
@@ -1293,7 +1293,6 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="EhGnFRwSD2QMpD4eYYDdQl" Comment="Viewport Bounds In World Space" Bounds="1186,246,220,220" ShowValueBox="true" isIOBox="true" />
         </Canvas>
         <Patch Id="EJ6ckaNVvPJM9NUfxJF3hm" Name="Create" />
         <Patch Id="AQYDWzS67m0PSg97tIOF6o" Name="Update" />
